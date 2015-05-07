@@ -1,13 +1,13 @@
 {
-  "name": "baucis-json",
-  "version": "1.0.0",
-  "description": "Baucis uses this to parse and format streams of JSON.",
+  "name": "baucis-html",
+  "version": "2.0.0",
+  "description": "Baucis uses this to render JSON streams into HTML forms.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "baucis", "stream", "json", "parse", "parser", "format"
+    "baucis", "stream", "json", "html", "format"
   ],
   "author": "William Riley-Land <william@kun.io>",
   "license": "MIT",
@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wprl/baucis-json.git"
+    "url": "https://github.com/Kunio-App-Studio-LLC/baucis-html.git"
   },
   "bugs": {
-    "url": "https://github.com/wprl/baucis-json/issues/new",
+    "url": "https://github.com/Kunio-App-Studio-LLC/baucis-html/issues/new",
     "email": "william@kun.io"
   }
 }
