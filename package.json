@@ -1,13 +1,18 @@
 {
   "name": "baucis-html",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Baucis uses this to render JSON streams into HTML forms.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --bail"
   },
   "keywords": [
-    "baucis", "stream", "json", "html", "format"
+    "baucis",
+    "stream",
+    "json",
+    "html",
+    "format",
+    "form"
   ],
   "author": "William Riley-Land <william@kun.io>",
   "license": "MIT",
@@ -21,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/Kunio-App-Studio-LLC/baucis-html/issues/new",
     "email": "william@kun.io"
+  },
+  "devDependencies": {
+    "cheerio": "^0.19.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.4"
   }
 }
