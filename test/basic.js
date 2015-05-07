@@ -26,12 +26,14 @@ describe('baucis-html', function() {
       );
       
       expect(dom('form').length).to.be(1);
+      expect(dom('form input[type="text"]').length).to.be(1);
+      expect(dom('form input[name="field1"]').length).to.be(1);
+      expect(dom('form input[name="field1"]').attr('value')).to.be('value1');
+      expect(dom('form input[type="submit"]').length).to.be(1);
     });
     
-    it('should throw an error for an array containing non-objects', function() {
-    });
-    
-    it('should return multiple forms for an array containing objects', function() {
+    it('should throw an error for non-object', function() {
+      expect(baucisHtml.objToForm).withArgs('foo').to.throwException(/Must pass an object/);
     });
   })
 });
